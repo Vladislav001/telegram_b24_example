@@ -1,0 +1,7 @@
+<Files "settings.ini">
+    Deny From All
+</Files>
+
+<Files "README.md">
+    Deny From All
+</Files>

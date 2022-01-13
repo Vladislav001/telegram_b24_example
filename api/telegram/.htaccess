@@ -1,0 +1,11 @@
+<Files "subscribers.json">
+    Deny From All
+</Files>
+
+<Files "confirmed_subscribers.json">
+    Deny From All
+</Files>
+
+<Files "working_webhook_ids.json">
+    Deny From All
+</Files>
