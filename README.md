@@ -19,12 +19,12 @@
 - run.php (при запуске модуля в Б24 вызывается)
 - messages.php (словарик)
 - settings.ini (доступы к БД, обновлению токенов и тп)
-3. Установить/переустановить в Б24 (если вдруг например рефреш токены перестанут обновлять больше месяца), то тут https://lince.bitrix24.ru/marketplace/ или
-   https://lince.bitrix24.ru/devops/list/ (по доступам для этого приложения нужны: Пользователи, Задачи)
+3. Установить/переустановить в Б24 (если вдруг например рефреш токены перестанут обновлять больше месяца), то тут https://<site>.bitrix24.ru/marketplace/ или
+   https://<site>.bitrix24.ru/devops/list/ (по доступам для этого приложения нужны: Пользователи, Задачи)
 4. Функционал:
 - Подписаться/отписаться на канал (но вручную надо id указывать также в api/telegram/confirmed_subscribers.json)
 - Получить webhook от telegram (api/telegram/webhook.php)->запустить определение команды и логику(\TelegramBot\ChatBot::triggerWebhook в api/telegram/bot.php)
-- Настроить какой человек чьи отчеты может видить (в Б24 https://lince.bitrix24.ru/marketplace/app/41/ , сам код на js saveSettingsData()  в templates/index.php)
+- Настроить какой человек чьи отчеты может видить (в Б24 https://<site>.bitrix24.ru/marketplace/app/41/ , сам код на js saveSettingsData()  в templates/index.php)
 - Также в api/telegram/bot.php каждый метод описан
 
 --------------------------------------------------------------
